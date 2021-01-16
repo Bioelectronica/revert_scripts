@@ -17,4 +17,5 @@ sleep 1
 [ \$DISPLAY = :0 ] && xfce4-terminal -T 'Hardware Check' -e 'ssh master journalctl -u bioehwtest -ef'" > /home/saveguest/.config/openbox/autostart
 
 echo "# do nothing" > /etc/xdg/openbox/autostart 
-
+ssh master systemctl disable zmqserver
+ssh slave systemctl disable zmqserver
