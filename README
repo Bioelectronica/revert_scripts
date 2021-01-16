@@ -1,0 +1,6 @@
+These are simple scripts to revert the laptop to its previous stage.
+
+1> Go to the location in laptop where the scripts are located. 
+2> su root
+3> sh autologin.sh
+4> sh test.sh
