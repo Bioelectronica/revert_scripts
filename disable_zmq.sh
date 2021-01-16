@@ -1,2 +1,2 @@
-ssh master systemctl disable zmqserver
-ssh slave systemctl disable zmqserver
+ssh master sudo systemctl disable zmqserver
+ssh slave sudo systemctl disable zmqserver
