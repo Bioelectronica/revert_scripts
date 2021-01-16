@@ -1,8 +1,11 @@
-These are simple scripts to revert the laptop to its previous stage.
+
+
+Currently the laptop in China is set up to communicate with the instrumetn via ZMQ. These scripts will set up the laptop to use VNC viewer instead (as saveguest). 
+
 
 1> Go to the location in laptop where the scripts are located. 
 2> su root
 3> sh autologin.sh
 4> sh test.sh
 5> exit
-6> sh disable_zmq.sh
+6> sh disable_zmq.sh - Turns off the ZMQ server
