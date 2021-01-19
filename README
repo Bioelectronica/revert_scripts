@@ -7,5 +7,5 @@ Currently the laptop in China is set up to communicate with the instrumetn via Z
 2> su root
 3> sh autologin.sh
 4> sh test.sh
-5> exit
+5> exit as root
 6> sh disable_zmq.sh - Turns off the ZMQ server
