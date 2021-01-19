@@ -9,3 +9,4 @@ Currently the laptop in China is set up to communicate with the instrumetn via Z
 4> sh test.sh
 5> exit as root
 6> sh disable_zmq.sh - Turns off the ZMQ server
+7> sh interface.sh (right click menu options changed for master and slave)
