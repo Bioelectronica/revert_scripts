@@ -6,9 +6,9 @@ cp -pr /etc/xdg/openbox /home/saveguest/.config/
 
 echo "sleep 10
 [ \$DISPLAY = :0 ] && tint2 &
-sleep 3
-[ \$DISPLAY = :9 ] && xsetroot -solid yellow
-[ $DISPLAY = :9 ] && xfce4-terminal &
+#sleep 3
+#[ \$DISPLAY = :9 ] && xsetroot -solid yellow
+#[ \$DISPLAY = :9 ] && xfce4-terminal &
 sleep 1
 # [ \$DISPLAY = :0 ] && xsetroot -solid blue
 [ \$DISPLAY = :0 ] && vncviewer -passwd .vnc/passwd -geometry 960x1025+960+0 slave:35909 &
